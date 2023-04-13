@@ -15,7 +15,7 @@ public class ProductData {
     @NotEmpty(message = "produk nama tidak boleh kosong")
     private String productName; 
     @NotEmpty(message = "produk diskripsi tidak boleh kosong")
-    private String productDescription;    
+    private String productDescription;   
     private Double productPrice;
     @NotEmpty(message = "produk uom tidak boleh kosong")
     private String productUOM;    
