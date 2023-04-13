@@ -57,8 +57,8 @@ public class ProductController {
             }
             responseData.setStatus(false);
             responseData.setData(null);
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(responseData);
-            // return ResponseEntity.ok(responseData);
+            // return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(responseData);
+            return ResponseEntity.ok(responseData);
         }
       
         Product product = mapper.map(productData,Product.class);
